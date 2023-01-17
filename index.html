@@ -22,6 +22,9 @@
     height: 75px;
     margin: 2px;
     transition: background-color 0.3s ease-in-out;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
   }
   button:hover {
     background-color: gray;
@@ -31,6 +34,9 @@
   }
   ul {
     list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
   }
   @media (max-width: 600px) {
     button {
@@ -44,6 +50,7 @@
   <h1>Nome sito </h1>
   <p>Scegli una materia per iniziare:</p>
   <ul>
+    <li><a href="api_request.html"><button><i class="fas fa-network-wired"></i> AI chat</button></a></li>
     <li><a href="matematica.html"><button><i class="fas fa-calculator"></i> matematica</button></a></li>
     <li><a href="italiano.html"><button><i class="fas fa-book"></i> italiano</button></a></li>
     <li><a href="inglese.html"><button><i class="fas fa-graduation-cap"></i> inglese</button></a></li>
@@ -54,9 +61,6 @@
     <li><a href="page8.html"><button><i class="fas fa-user"></i> page8</button></a></li>
     <li><a href="page9.html"><button><i class="fas fa-envelope"></i> page9</button></a></li>
     <li><a href="page10.html"><button><i class="fas fa-cog"></i> page10</button></a></li>
-
-
-
   </ul>
 </body>
 </html>
